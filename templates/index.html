@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gesture recognition</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-dark">
+    <div class="container">
+        <div class="bg-image" style="background-color: rgb(64, 64, 64);">
+            <div class="mask gradient-custom-plum">
+                <div class="row justify-content-center align-items-center h-100 text-white text-center"
+                    style="padding: 50px;">
+                    <p class="h1 mb-4">Gesture recognition system</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+    <div class="row justify-content-center mt-4 mb-4">
+        <button class="btn btn-secondary btn-lg col-3" onclick="randomizeAndPredictAsync()">Randomize input</button>
+        <p class="col h4">Gesture: </p>
+        <p class="col h4" id="gesture"></p>
+    </div>
+    </div>
+    <div class="container">
+        <p class="h4 mb-4">Paweł Poręba & Aleksandra Michalska</p>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
