@@ -1,4 +1,3 @@
-import os
 import torch
 from flask import Flask, jsonify, render_template, request
 import torch.nn as nn
