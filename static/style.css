@@ -1,0 +1,49 @@
+#parent {
+    position: relative;
+    height: auto;
+    min-height: 100% !important;
+}
+
+#parent>.eeg {
+    position: absolute;
+}
+
+#eeg-1 {
+    left: 17%;
+    top: 15%;
+}
+
+#eeg-2 {
+    left: 17%;
+    bottom: 25%;
+}
+
+#eeg-3 {
+    left: 5%;
+    top: 50%;
+}
+
+#eeg-4 {
+    left: 10%;
+    top: 20%;
+}
+
+#eeg-5 {
+    left: 81%;
+    top: 25%;
+}
+
+#eeg-6 {
+    left: 75%;
+    bottom: 25%;
+}
+
+#eeg-7 {
+    left: 78%;
+    top: 15%;
+}
+
+#eeg-8 {
+    left: 80%;
+    top: 55%;
+}
